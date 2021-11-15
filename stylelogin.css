@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#3f58fb,#fc466f);
+}
+form{
+   width: 8cm;
+   height: 10cm;
+   display: flex;
+   flex-direction: column;
+   background:rgba(255,255,0,0.06) ;
+   box-shadow:0 8px 32px 0 rgba((31,38,135,.37), green, blue, alpha)  ;
+    border-radius: 0.24cm;
+
+}
+h1{
+    font-size: 1cm;
+    text-align: center;
+    color: white;
+    text-shadow: 2cm black;
+    opacity: cm ;
+     
+}
+input{
+    width: 70%;
+    margin: auto;
+    margin-top: 0.5cm;
+    border: none;
+    border-top: none;
+    border-left: none;
+    outline: none;
+    height: 0.5cm;
+    margin-bottom: 1cm;
+    background: transparent;
+    color: white;
+    border-bottom :0.01cm solid white ;
+}
+label{
+    margin-left: 1cm;
+    color: white;
+    opacity: 2cm;
+    text-align: left 2cm;
+    opacity: 0.8; 
+   
+}
+button{
+    width: 50%;
+    margin: 0.05cm auto;
+    color: white;
+    background-color: rgba(255,255,0,0.06);
+    border: none;
+    outline: none;
+    padding: 0.2cm 0.7cm;
+    border-radius: 0.5cm;
+    font-size: 0.5cm;
+    opacity: 0.8;
+    box-shadow: 0.5cm rgba(255,255,0,0.06);
+    margin-top: -1cm;
+}
+a{
+    font-size: 0.3cm;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+}
